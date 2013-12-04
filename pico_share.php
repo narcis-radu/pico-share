@@ -11,21 +11,21 @@
 class Pico_Share {
 
 	public $templates = array(
-			'twitter'	=> 'https://twitter.com/intent/tweet?text=__TITLE__&url=__URL__',
-			'facebook'	=> 'https://www.facebook.com/sharer/sharer.php?u=__URL__',
-			'google'	=> 'https://plus.google.com/share?url=__URL__',
-			'linkedin'	=> 'http://www.linkedin.com/shareArticle?mini=true&url=__URL__&title=__TITLE__&summary=__EXCERPT__&source=__URL__' 
+			'twitter' => 'https://twitter.com/intent/tweet?text=__TITLE__&url=__URL__',
+			'facebook' => 'https://www.facebook.com/sharer/sharer.php?u=__URL__',
+			'google' => 'https://plus.google.com/share?url=__URL__',
+			'linkedin' => 'http://www.linkedin.com/shareArticle?mini=true&url=__URL__&title=__TITLE__&summary=__EXCERPT__&source=__URL__' 
 		);
 
 	public function __construct() {
 		$this->config = array(
 				'services' 	=> array(
-						'twitter' 	=> 1,
-						'facebook' 	=> 1,
-						'google' 	=> 1,
-						'linkedin' 	=> 1
+						'twitter' => 1,
+						'facebook' => 1,
+						'google' => 1,
+						'linkedin' => 1
 					),
-				'output'	=> 'list'
+				'output' => 'list'
 			);
 	}
 
