@@ -53,7 +53,7 @@ class Pico_Share {
 		};
 		switch($this->config['output']) {
 			case 'link':
-				$twig_vars['social_share'] = implode('', array_values($activeServices));
+				$twig_vars['social_share'] = '<div id="share">'.implode('', array_values($activeServices)).'</div>';
 				break;
 			default:
 				//show as list by default
