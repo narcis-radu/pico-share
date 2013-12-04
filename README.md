@@ -1,6 +1,6 @@
 Pico Social Share
 ==========
-The plugin will add social share links to your [Pico] (!https://github.com/gilbitron/Pico) posts and pages. Supported services: Twitter, Facebook, Google+, LinkedIn.
+The plugin will add social share links to your [Pico] (https://github.com/gilbitron/Pico) posts and pages. Supported services: Twitter, Facebook, Google+, LinkedIn.
 
 ## Installation
 1. Copy `pico_share.php` to the `plugins` folder.
@@ -18,5 +18,8 @@ The plugin will add social share links to your [Pico] (!https://github.com/gilbi
 ## Setting up the theme
 Just add `{{ social_share }}` to your theme.
 
+## License
+Social Sharing is free to use under the MIT License.
+
 ## NOTE
-There is no stylesheet provided. If you need help with styles, check [pure-extras] (!https://github.com/narcis-radu/pure-extras), [social-sharing] (!https://github.com/cferdinandi/social-sharing/) or any CSS snippets.
+There is no stylesheet provided. If you need help with styles, check [pure-extras] (https://github.com/narcis-radu/pure-extras), [social-sharing] (https://github.com/cferdinandi/social-sharing/) or any CSS snippets.
