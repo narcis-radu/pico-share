@@ -14,7 +14,6 @@ The plugin will add social share links to your [Pico] (!https://github.com/gilbi
 `$config['social']['output'] = 'link';`  
 **class_prefix** - add class(es) to `a` tags. by default, every service will have a `btn-service` class. _**default**_: btn-  
 `$config['social']['class_prefix'] = 'buttons btn-';`  
-_**example**_: `class="btn-twitter|google|facebook|linkedin"`, `class="buttons btn-twitter|facebook"`
 
 ## Setting up the theme
 Just add `{{ social_share }}` to your theme.
