@@ -19,7 +19,7 @@ class Pico_Share {
 
 	public function __construct() {
 		$this->config = array(
-				'services' 	=> array(
+				'services' => array(
 						'twitter' => 1,
 						'facebook' => 1,
 						'google' => 1,
